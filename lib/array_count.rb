@@ -16,7 +16,7 @@ def count_empty_strings(array)
   count = 0
   row_index = 0
   while row_index < array.count do
-      if array[row_index].class == ""
+      if array[row_index] == ""
         count += 1
       end
     row_index += 1
