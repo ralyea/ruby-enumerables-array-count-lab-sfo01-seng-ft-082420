@@ -2,7 +2,7 @@ def count_strings(array)
     count = 0
   row_index = 0
   while row_index < array.count do
-      if src[row_index].class == String
+      if array[row_index].class == String
         count += 1
       end
     row_index += 1
